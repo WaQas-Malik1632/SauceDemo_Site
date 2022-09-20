@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression_Suit" thread-count="10" parallel="classes">
+	<listeners>
+		<listener class-name="ListenerPackage.ListenersTestNG" />
+
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="ChromeTest">
+		<parameter name="Environment" value="Staging Server" />
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="Testcases_Package.ValidateLoginPage"></class>
+		</classes>
+	</test>
+
+	<test name="FirefoxTest">
+		<parameter name="Environment" value="Staging Server" />
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="Testcases_Package.TestCase_InventoryPage"></class>
+		</classes>
+	</test>
+
+	<test name="EdgeTest">
+	<parameter name="Environment" value="Demo Server" />
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="Testcases_Package.TestCase_AboutUSPage"></class>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-13T19:41:01 PKT" name="Regression_Suit" finished-at="2022-09-13T19:41:32 PKT" duration-ms="31688">
+    <groups>
+    </groups>
+    <test started-at="2022-09-13T19:41:01 PKT" name="ChromeTest" finished-at="2022-09-13T19:41:27 PKT" duration-ms="25858">
+      <class name="Testcases_Package.ValidateLoginPage">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Testcases_Package.ValidateLoginPage@58ffcbd7]" started-at="2022-09-13T19:41:01 PKT" name="beforeMethod" finished-at="2022-09-13T19:41:09 PKT" duration-ms="8156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestcasetoVerifyLoginwith_CorrectUsernameandWrongPassword()[pri:1, instance:Testcases_Package.ValidateLoginPage@58ffcbd7]" started-at="2022-09-13T19:41:09 PKT" name="TestcasetoVerifyLoginwith_CorrectUsernameandWrongPassword" description="Login Test#4" finished-at="2022-09-13T19:41:10 PKT" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestcasetoVerifyLoginwith_CorrectUsernameandWrongPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testcases_Package.ValidateLoginPage@58ffcbd7]" started-at="2022-09-13T19:41:10 PKT" name="afterMethod" finished-at="2022-09-13T19:41:10 PKT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Testcases_Package.ValidateLoginPage@58ffcbd7]" started-at="2022-09-13T19:41:10 PKT" name="beforeMethod" finished-at="2022-09-13T19:41:13 PKT" duration-ms="2406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestcasetoVerifyLoginwith_WrongUsernameandCorrectPassword()[pri:1, instance:Testcases_Package.ValidateLoginPage@58ffcbd7]" started-at="2022-09-13T19:41:13 PKT" name="TestcasetoVerifyLoginwith_WrongUsernameandCorrectPassword" description="Login Test#3" finished-at="2022-09-13T19:41:13 PKT" duration-ms="296" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at Testcases_Package.ValidateLoginPage.TestcasetoVerifyLoginwith_WrongUsernameandCorrectPassword(ValidateLoginPage.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestcasetoVerifyLoginwith_WrongUsernameandCorrectPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testcases_Package.ValidateLoginPage@58ffcbd7]" started-at="2022-09-13T19:41:19 PKT" name="afterMethod" finished-at="2022-09-13T19:41:19 PKT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Testcases_Package.ValidateLoginPage@58ffcbd7]" started-at="2022-09-13T19:41:19 PKT" name="beforeMethod" finished-at="2022-09-13T19:41:22 PKT" duration-ms="3391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestcasetoVerifyLoginwith_bothWrongUsernameandPassword()[pri:1, instance:Testcases_Package.ValidateLoginPage@58ffcbd7]" started-at="2022-09-13T19:41:22 PKT" name="TestcasetoVerifyLoginwith_bothWrongUsernameandPassword" description="Login Test#2" finished-at="2022-09-13T19:41:23 PKT" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestcasetoVerifyLoginwith_bothWrongUsernameandPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testcases_Package.ValidateLoginPage@58ffcbd7]" started-at="2022-09-13T19:41:23 PKT" name="afterMethod" finished-at="2022-09-13T19:41:23 PKT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Testcases_Package.ValidateLoginPage@58ffcbd7]" started-at="2022-09-13T19:41:23 PKT" name="beforeMethod" finished-at="2022-09-13T19:41:25 PKT" duration-ms="2649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestcasetoVerifyLoginwithbothcorrectUsernameandPassword()[pri:1, instance:Testcases_Package.ValidateLoginPage@58ffcbd7]" started-at="2022-09-13T19:41:25 PKT" name="TestcasetoVerifyLoginwithbothcorrectUsernameandPassword" description="Login Test#1" finished-at="2022-09-13T19:41:26 PKT" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestcasetoVerifyLoginwithbothcorrectUsernameandPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testcases_Package.ValidateLoginPage@58ffcbd7]" started-at="2022-09-13T19:41:26 PKT" name="afterMethod" finished-at="2022-09-13T19:41:26 PKT" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Testcases_Package.ValidateLoginPage -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-09-13T19:41:27 PKT" name="FirefoxTest" finished-at="2022-09-13T19:41:32 PKT" duration-ms="5483">
+      <class name="Testcases_Package.TestCase_InventoryPage">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Testcases_Package.TestCase_InventoryPage@5c153b9e]" started-at="2022-09-13T19:41:27 PKT" name="beforeMethod" finished-at="2022-09-13T19:41:31 PKT" duration-ms="4257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Testcasetocheck_IteminCart()[pri:0, instance:Testcases_Package.TestCase_InventoryPage@5c153b9e]" started-at="2022-09-13T19:41:31 PKT" name="Testcasetocheck_IteminCart" finished-at="2022-09-13T19:41:32 PKT" duration-ms="1136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcasetocheck_IteminCart -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testcases_Package.TestCase_InventoryPage@5c153b9e]" started-at="2022-09-13T19:41:32 PKT" name="afterMethod" finished-at="2022-09-13T19:41:32 PKT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Testcases_Package.TestCase_InventoryPage -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2022-09-13T19:41:32 PKT" name="EdgeTest" finished-at="2022-09-13T19:41:32 PKT" duration-ms="112">
+      <class name="Testcases_Package.TestCase_AboutUSPage">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Testcases_Package.TestCase_AboutUSPage@4351c8c3]" started-at="2022-09-13T19:41:32 PKT" name="beforeMethod" finished-at="1970-01-01T05:00:00 PKT" duration-ms="-1663080092774" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMethod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMethod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Testcase_GoToSauceSite()[pri:0, instance:Testcases_Package.TestCase_AboutUSPage@4351c8c3]" started-at="2022-09-13T19:41:32 PKT" name="Testcase_GoToSauceSite" finished-at="2022-09-13T19:41:32 PKT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMethod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated beforeMethod.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_GoToSauceSite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testcases_Package.TestCase_AboutUSPage@4351c8c3]" started-at="2022-09-13T19:41:32 PKT" name="afterMethod" finished-at="1970-01-01T05:00:00 PKT" duration-ms="-1663080092879" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Testcases_Package.TestCase_AboutUSPage -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Regression_Suit -->
+</testng-results>

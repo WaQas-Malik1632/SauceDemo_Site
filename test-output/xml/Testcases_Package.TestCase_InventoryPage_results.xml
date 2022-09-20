@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirefoxTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.136">
+  <properties />
+  
+  
+            <testcase name="Testcasetocheck_IteminCart" time="1.136" classname="Testcases_Package.TestCase_InventoryPage" />
+      
+</testsuite>
