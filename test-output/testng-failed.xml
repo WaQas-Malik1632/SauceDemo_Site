@@ -19,17 +19,4 @@
       </class> <!-- Testcases_Package.ValidateLoginPage -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
-  <test thread-count="10" parallel="classes" name="EdgeTest(failed)">
-    <parameter name="browser" value="Edge"/>
-    <parameter name="Environment" value="Demo Server"/>
-    <classes>
-      <class name="Testcases_Package.TestCase_AboutUSPage">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="Testcase_GoToSauceSite"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- Testcases_Package.TestCase_AboutUSPage -->
-    </classes>
-  </test> <!-- EdgeTest(failed) -->
 </suite> <!-- Failed suite [Regression_Suit] -->

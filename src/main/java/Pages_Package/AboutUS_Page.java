@@ -1,9 +1,9 @@
 package Pages_Package;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-import javax.imageio.ImageIO;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -11,10 +11,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.ITestListener;
-
-import ru.yandex.qatools.ashot.AShot;
-import ru.yandex.qatools.ashot.Screenshot;
-import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 
 public class AboutUS_Page implements ITestListener
 {
@@ -36,10 +32,6 @@ public class AboutUS_Page implements ITestListener
 		WebElement I2=driver.findElement(link_About);
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		I2.click();	
-		
-		Screenshot screenshot = new AShot().takeScreenshot(driver);
-		Screenshot s=new AShot().shootingStrategy(ShootingStrategies.viewportPasting(300)).takeScreenshot(driver);
-		ImageIO.write(s.getImage(),"jpg",new File("D:\\Selenium Automation\\abc.jpg"));
 	}
 	public static void takeSnapShot(WebDriver webdriver,String fileWithPath) throws Exception
 	{

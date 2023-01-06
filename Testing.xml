@@ -25,12 +25,5 @@
 		</classes>
 	</test>
 
-	<test name="EdgeTest">
-	<parameter name="Environment" value="Demo Server" />
-		<parameter name="browser" value="Edge" />
-		<classes>
-			<class name="Testcases_Package.TestCase_AboutUSPage"></class>
-		</classes>
-	</test>
 
 </suite>

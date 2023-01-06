@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="2"
-           time="-3326160185.653">
+           time="-3330287652.475">
   <properties />
-            <testcase name="beforeMethod" time="-1663080092.774" classname="Testcases_Package.TestCase_AboutUSPage">
+            <testcase name="beforeMethod" time="-1665143826.181" classname="Testcases_Package.TestCase_AboutUSPage">
                 <failure type="org.testng.TestNGException"
                   message="
 Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @BeforeMethod annotated beforeMethod.

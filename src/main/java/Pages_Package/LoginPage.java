@@ -26,6 +26,34 @@ public class LoginPage
 	{
 		this.driver=driver;
 	}
+	public boolean Login_Testcases_Negative(String Uname, String Pass)
+	{
+		WebElement u1=driver.findElement(txt_username);
+		u1.sendKeys(Uname);
+		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+		WebElement p1=driver.findElement(txt_password);
+		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);  //page load
+		
+		WebElement b1=driver.findElement(btn_login);
+		b1.click();
+		
+		String actualUrl=driver.getCurrentUrl();
+		String expectrdUrl="https://www.saucedemo.com/inventory.html";
+		
+		boolean cond=false;
+		if(actualUrl.equalsIgnoreCase(expectrdUrl))
+		{
+			cond=true;
+		}
+		
+		else 
+			cond=false;
+		
+		return cond;
+	}
 	public boolean Login_Testcases(String Uname, String Pass)
 	{
 		WebElement u1=driver.findElement(txt_username);

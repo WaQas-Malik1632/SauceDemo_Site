@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="ChromeTest"
-           tests="4"
+           tests="7"
            failures="1"
            errors="0"
            skipped="0"
-           time="2.383">
+           time="4.564">
   <properties />
-            <testcase name="TestcasetoVerifyLoginwith_WrongUsernameandCorrectPassword" time="0.296" classname="Testcases_Package.ValidateLoginPage">
+            <testcase name="TestcasetoVerifyLoginwith_WrongUsernameandCorrectPassword" time="0.351" classname="Testcases_Package.ValidateLoginPage">
                 <failure type="java.lang.AssertionError"
                   message="Failed expected [true] but found [false]"
               >
@@ -14,7 +14,7 @@
   org.testng.Assert.fail(Assert.java:99)
   org.testng.Assert.failNotEquals(Assert.java:1037)
   org.testng.Assert.assertTrue(Assert.java:45)
-  Testcases_Package.ValidateLoginPage.TestcasetoVerifyLoginwith_WrongUsernameandCorrectPassword(ValidateLoginPage.java:67)
+  Testcases_Package.ValidateLoginPage.TestcasetoVerifyLoginwith_WrongUsernameandCorrectPassword(ValidateLoginPage.java:69)
   java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -36,8 +36,11 @@
           </testcase>
   
   
-            <testcase name="TestcasetoVerifyLoginwith_bothWrongUsernameandPassword" time="0.440" classname="Testcases_Package.ValidateLoginPage" />
-                <testcase name="TestcasetoVerifyLoginwithbothcorrectUsernameandPassword" time="0.862" classname="Testcases_Package.ValidateLoginPage" />
-                <testcase name="TestcasetoVerifyLoginwith_CorrectUsernameandWrongPassword" time="0.785" classname="Testcases_Package.ValidateLoginPage" />
+            <testcase name="TestcasetoVerifyLoginwithbothcorrectUsernameandPassword" time="0.502" classname="Testcases_Package.ValidateLoginPage" />
+                <testcase name="TestcasetoVerifyLoginwith_CorrectUsernameandWrongPassword" time="2.172" classname="Testcases_Package.ValidateLoginPage" />
+                <testcase name="TestcasetoVerifyLoginwith_bothWrongUsernameandPassword" time="0.366" classname="Testcases_Package.ValidateLoginPage" />
+                <testcase name="TestcasetoVerifyLoginwithbothcorrectUsernameandPassword" time="0.385" classname="Testcases_Package.ValidateLoginPage" />
+                <testcase name="TestcasetoVerifyLoginwithbothcorrectUsernameandPassword" time="0.393" classname="Testcases_Package.ValidateLoginPage" />
+                <testcase name="TestcasetoVerifyLoginwithbothcorrectUsernameandPassword" time="0.395" classname="Testcases_Package.ValidateLoginPage" />
       
 </testsuite>
